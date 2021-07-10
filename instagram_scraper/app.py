@@ -646,7 +646,7 @@ class InstagramScraper(object):
 
                 self.rhx_gis = ""
 
-                self.get_profile_pic(dst, executor, future_to_item, user, username)
+                #self.get_profile_pic(dst, executor, future_to_item, user, username)
                 self.get_profile_info(dst, username)
 
                 if self.logged_in:
